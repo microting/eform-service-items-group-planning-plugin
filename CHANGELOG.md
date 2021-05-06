@@ -1,5 +1,15 @@
 # Changelog
 
+## [v1.0.57](https://github.com/microting/eform-service-items-group-planning-plugin/tree/v1.0.57) (2021-05-06)
+
+[Full Changelog](https://github.com/microting/eform-service-items-group-planning-plugin/compare/v1.0.56...v1.0.57)
+
+**Implemented enhancements:**
+
+- Bump Microting.ItemsGroupPlanningBase from 2.0.81 to 3.0.6 [\#150](https://github.com/microting/eform-service-items-group-planning-plugin/issues/150)
+- Bump Microting.eFormApi.BasePn from 2.0.104 to 3.0.7 [\#149](https://github.com/microting/eform-service-items-group-planning-plugin/issues/149)
+- Bump Microting.eForm from 4.4.9 to 5.1.3 [\#148](https://github.com/microting/eform-service-items-group-planning-plugin/issues/148)
+
 ## [v1.0.56](https://github.com/microting/eform-service-items-group-planning-plugin/tree/v1.0.56) (2021-03-17)
 
 [Full Changelog](https://github.com/microting/eform-service-items-group-planning-plugin/compare/v1.0.55...v1.0.56)
