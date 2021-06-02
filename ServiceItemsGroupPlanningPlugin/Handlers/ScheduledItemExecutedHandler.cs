@@ -90,7 +90,18 @@ namespace ServiceItemsGroupPlanningPlugin.Handlers
 
             if (!folderAlreadyExist)
             {
-                _sdkCore.FolderCreate(name, "", null);
+                List<KeyValuePair<string, string>> names =
+                    new List<KeyValuePair<string, string>>
+                    {
+                        new("da", name)
+                    };
+
+                List<KeyValuePair<string, string>> descriptions =
+                    new List<KeyValuePair<string, string>>
+                    {
+                        new("da", "")
+                    };
+                _sdkCore.FolderCreate(names, descriptions, null);
                 folderDtos = _sdkCore.FolderGetAll(true).Result;
 
                 foreach (FolderDto folderDto in folderDtos)

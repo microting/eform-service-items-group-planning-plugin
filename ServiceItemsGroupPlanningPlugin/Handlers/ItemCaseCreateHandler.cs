@@ -1,20 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Microting.eForm.Dto;
+using Microting.eForm.Infrastructure.Constants;
 using Microting.eForm.Infrastructure.Data.Entities;
+using Microting.ItemsGroupPlanningBase.Infrastructure.Data;
+using Microting.ItemsGroupPlanningBase.Infrastructure.Data.Entities;
+using Rebus.Handlers;
+using ServiceItemsGroupPlanningPlugin.Infrastructure.Helpers;
+using ServiceItemsGroupPlanningPlugin.Messages;
 
 namespace ServiceItemsGroupPlanningPlugin.Handlers
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
-    using Infrastructure.Helpers;
-    using Messages;
-    using Microsoft.EntityFrameworkCore;
-    using Microting.eForm.Dto;
-    using Microting.eForm.Infrastructure.Constants;
-    using Microting.ItemsGroupPlanningBase.Infrastructure.Data;
-    using Microting.ItemsGroupPlanningBase.Infrastructure.Data.Entities;
-    using Rebus.Handlers;
-
     public class ItemCaseCreateHandler : IHandleMessages<ItemCaseCreate>
     {
         private readonly ItemsGroupPlanningPnDbContext _dbContext;
@@ -46,7 +45,7 @@ namespace ServiceItemsGroupPlanningPlugin.Handlers
                     await itemCase.Update(_dbContext);
                 }
 
-                itemCase = new ItemCase()
+                itemCase = new ItemCase
                 {
                     ItemId = item.Id,
                     Status = 66,
@@ -93,7 +92,7 @@ namespace ServiceItemsGroupPlanningPlugin.Handlers
 
                     if (itemCaseSite == null)
                     {
-                        itemCaseSite = new ItemCaseSite()
+                        itemCaseSite = new ItemCaseSite
                         {
                             MicrotingSdkSiteId = siteId,
                             MicrotingSdkeFormId = message.RelatedEFormId,
@@ -134,7 +133,18 @@ namespace ServiceItemsGroupPlanningPlugin.Handlers
 
             if (!folderAlreadyExist)
             {
-                _sdkCore.FolderCreate(name, "", null);
+                List<KeyValuePair<string, string>> names =
+                    new List<KeyValuePair<string, string>>
+                    {
+                        new("da", name)
+                    };
+
+                List<KeyValuePair<string, string>> descriptions =
+                    new List<KeyValuePair<string, string>>
+                    {
+                        new("da", "")
+                    };
+                _sdkCore.FolderCreate(names,descriptions , null);
                 folderDtos = _sdkCore.FolderGetAll(true).Result;
 
                 foreach (FolderDto folderDto in folderDtos)
