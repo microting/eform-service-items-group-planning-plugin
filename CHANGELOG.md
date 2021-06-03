@@ -1,5 +1,21 @@
 # Changelog
 
+## [Unreleased](https://github.com/microting/eform-service-items-group-planning-plugin/tree/HEAD)
+
+[Full Changelog](https://github.com/microting/eform-service-items-group-planning-plugin/compare/v1.0.64...HEAD)
+
+**Merged pull requests:**
+
+- Upgrade to GitHub-native Dependabot [\#134](https://github.com/microting/eform-service-items-group-planning-plugin/pull/134) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
+## [v1.0.64](https://github.com/microting/eform-service-items-group-planning-plugin/tree/v1.0.64) (2021-06-03)
+
+[Full Changelog](https://github.com/microting/eform-service-items-group-planning-plugin/compare/v1.0.63...v1.0.64)
+
+**Merged pull requests:**
+
+- Bump NUnit from 3.13.1 to 3.13.2 [\#133](https://github.com/microting/eform-service-items-group-planning-plugin/pull/133) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
 ## [v1.0.63](https://github.com/microting/eform-service-items-group-planning-plugin/tree/v1.0.63) (2021-06-02)
 
 [Full Changelog](https://github.com/microting/eform-service-items-group-planning-plugin/compare/v1.0.62...v1.0.63)
