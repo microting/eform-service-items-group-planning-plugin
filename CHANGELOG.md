@@ -1,8 +1,32 @@
 # Changelog
 
-## [Unreleased](https://github.com/microting/eform-service-items-group-planning-plugin/tree/HEAD)
+## [v1.0.67](https://github.com/microting/eform-service-items-group-planning-plugin/tree/v1.0.67) (2021-06-27)
 
-[Full Changelog](https://github.com/microting/eform-service-items-group-planning-plugin/compare/v1.0.64...HEAD)
+[Full Changelog](https://github.com/microting/eform-service-items-group-planning-plugin/compare/v1.0.66...v1.0.67)
+
+**Implemented enhancements:**
+
+- Bump Microting.eFormApi.BasePn from 3.0.21 to 3.0.25 [\#213](https://github.com/microting/eform-service-items-group-planning-plugin/issues/213)
+- Bump Microting.eForm from 5.2.11 to 5.2.13 [\#212](https://github.com/microting/eform-service-items-group-planning-plugin/issues/212)
+
+## [v1.0.66](https://github.com/microting/eform-service-items-group-planning-plugin/tree/v1.0.66) (2021-06-11)
+
+[Full Changelog](https://github.com/microting/eform-service-items-group-planning-plugin/compare/v1.0.65...v1.0.66)
+
+**Implemented enhancements:**
+
+- Bump Microting.ItemsGroupPlanningBase from 3.0.18 to 3.0.20 [\#208](https://github.com/microting/eform-service-items-group-planning-plugin/issues/208)
+- Bump Microting.eFormApi.BasePn from 3.0.18 to 3.0.21 [\#207](https://github.com/microting/eform-service-items-group-planning-plugin/issues/207)
+
+## [v1.0.65](https://github.com/microting/eform-service-items-group-planning-plugin/tree/v1.0.65) (2021-06-05)
+
+[Full Changelog](https://github.com/microting/eform-service-items-group-planning-plugin/compare/v1.0.64...v1.0.65)
+
+**Implemented enhancements:**
+
+- Bump Microting.ItemsGroupPlanningBase from 3.0.16 to 3.0.18 [\#200](https://github.com/microting/eform-service-items-group-planning-plugin/issues/200)
+- Bump Microting.eFormApi.BasePn from 3.0.16 to 3.0.18 [\#199](https://github.com/microting/eform-service-items-group-planning-plugin/issues/199)
+- Bump Microting.eForm from 5.2.7 to 5.2.8 [\#198](https://github.com/microting/eform-service-items-group-planning-plugin/issues/198)
 
 **Merged pull requests:**
 
