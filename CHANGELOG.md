@@ -1,5 +1,9 @@
 # Changelog
 
+## [v1.0.76](https://github.com/microting/eform-service-items-group-planning-plugin/tree/v1.0.76) (2021-09-14)
+
+[Full Changelog](https://github.com/microting/eform-service-items-group-planning-plugin/compare/v1.0.75...v1.0.76)
+
 ## [v1.0.75](https://github.com/microting/eform-service-items-group-planning-plugin/tree/v1.0.75) (2021-09-06)
 
 [Full Changelog](https://github.com/microting/eform-service-items-group-planning-plugin/compare/v1.0.74...v1.0.75)
