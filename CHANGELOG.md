@@ -1,8 +1,18 @@
 # Changelog
 
+## [v1.0.93](https://github.com/microting/eform-service-items-group-planning-plugin/tree/v1.0.93) (2021-11-19)
+
+[Full Changelog](https://github.com/microting/eform-service-items-group-planning-plugin/compare/v1.0.92...v1.0.93)
+
 ## [v1.0.92](https://github.com/microting/eform-service-items-group-planning-plugin/tree/v1.0.92) (2021-11-17)
 
 [Full Changelog](https://github.com/microting/eform-service-items-group-planning-plugin/compare/v1.0.91...v1.0.92)
+
+**Implemented enhancements:**
+
+- Bump Microting.ItemsGroupPlanningBase from 3.0.51 to 3.0.52 [\#317](https://github.com/microting/eform-service-items-group-planning-plugin/issues/317)
+- Bump Microting.eFormApi.BasePn from 3.1.1 to 3.1.2 [\#316](https://github.com/microting/eform-service-items-group-planning-plugin/issues/316)
+- Bump Microting.eForm from 5.3.2 to 5.3.4 [\#315](https://github.com/microting/eform-service-items-group-planning-plugin/issues/315)
 
 ## [v1.0.91](https://github.com/microting/eform-service-items-group-planning-plugin/tree/v1.0.91) (2021-11-16)
 
@@ -361,6 +371,7 @@
 **Merged pull requests:**
 
 - Bump Microsoft.NET.Test.Sdk from 16.6.1 to 16.9.1 [\#61](https://github.com/microting/eform-service-items-group-planning-plugin/pull/61) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump NUnit from 3.12.0 to 3.13.1 [\#37](https://github.com/microting/eform-service-items-group-planning-plugin/pull/37) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 
 ## [v1.0.52](https://github.com/microting/eform-service-items-group-planning-plugin/tree/v1.0.52) (2021-02-23)
 
@@ -601,7 +612,6 @@
 
 **Merged pull requests:**
 
-- Bump NUnit from 3.12.0 to 3.13.1 [\#37](https://github.com/microting/eform-service-items-group-planning-plugin/pull/37) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 - 3 Query [\#6](https://github.com/microting/eform-service-items-group-planning-plugin/pull/6) ([emleonid](https://github.com/emleonid))
 - Updates [\#5](https://github.com/microting/eform-service-items-group-planning-plugin/pull/5) ([emleonid](https://github.com/emleonid))
 - Updates [\#4](https://github.com/microting/eform-service-items-group-planning-plugin/pull/4) ([emleonid](https://github.com/emleonid))
